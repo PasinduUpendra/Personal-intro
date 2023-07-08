@@ -58,6 +58,30 @@ body {
 .text-align-right {
   text-align: right;
 }
+.profile_img {
+  position: absolute;
+  right: -5em;
+  bottom: -5em;
+}
+#slide1 h1 {
+  color: #fff;
+  margin-top: 1em;
+  text-shadow: 3px 3px 5px rgb(64 64 64);
+  font-size: 2.5em;
+  margin-bottom:0;
+}
+#slide1 h3 {
+  color: #fff;
+  text-shadow: 1px 1px 5px rgb(64 64 64);
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+#slide1 p {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgb(85 85 85);
+  width: 60%;
+  letter-spacing: 0.2px;
+}
 .experience-list {
     list-style: none;
     display: block;
