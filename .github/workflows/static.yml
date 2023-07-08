@@ -40,5 +40,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.REPO-TOKEN }}
+          github_token: ${{ secrets.REPO_TOKEN }}
           publish_dir: . # Path to the directory containing your static HTML page
